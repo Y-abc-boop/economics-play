@@ -1,9 +1,13 @@
+import pydash
 import pygame
 import sys
 import random
 
 pygame
 pygame.init()
+# fonts = pygame.font.get_fonts()
+# print(fonts, pydash.find(fonts, lambda s: "SimHei" in s)) 
+# font = pygame.font.SysFont('simHei', 20)
 
 WIDTH, HEIGHT = 1100, 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
