@@ -163,8 +163,8 @@ def draw_chart(surface, x, y, width, height, data, title, color, min_val=None, m
         data_min -= 1
         data_max += 1
 
-    pygame.draw.line(surface, HIGHLIGHT, (x + 40, y + height - 40), (x + width - 20, y + height - 40), 2)  # X轴
-    pygame.draw.line(surface, HIGHLIGHT, (x + 40, y + height - 40), (x + 40, y + 40), 2)  # Y轴
+    pygame.draw.line(surface, HIGHLIGHT, (x + 40, y + height - 40), (x + width - 20, y + height - 40), 2)  
+    pygame.draw.line(surface, HIGHLIGHT, (x + 40, y + height - 40), (x + 40, y + 40), 2)  
 
     for i in range(5):
         y_pos = y + height - 40 - i * (height - 80) / 4
