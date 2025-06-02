@@ -39,3 +39,11 @@
 - Pygame库：创建游戏窗口和界面，处理用户输入事件，绘制图形元素（形状、文本、线条），管理游戏循环和帧率。
 - Random库：生成随机扰动，模拟经济不确定性，为经济模型添加随机波动。
 - Sys库：提供系统相关功能，优雅地退出游戏。
+
+# How to run
+
+```
+  python -m venv venv
+  pip install -r requirements.txt
+  python a.py
+```
